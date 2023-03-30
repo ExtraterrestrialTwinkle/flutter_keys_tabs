@@ -27,7 +27,7 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  Map<String, dynamic> data = {
+  Map<String, List<String>> data = {
     'Мои фото': [
       'https://picsum.photos/1200/501',
       'https://picsum.photos/1200/502',
